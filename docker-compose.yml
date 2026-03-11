@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  jupyter-spark:
+    image: jupyter/pyspark-notebook:latest
+    ports:
+      - "8888:8888"  # Jupyter Notebook/Lab
+      - "4040:4040"  # Spark UI
+    volumes:
+      - ./notebooks:/home/jovyan/work
+      - ./datos_dane:/home/jovyan/datos_dane
+      - ./resultados:/home/jovyan/resultados
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    entrypoint: >
+      bash -c "
+        pip install --no-cache-dir pandas numpy matplotlib seaborn pdfplumber scikit-learn openpyxl xlrd plotly &&
+        start-notebook.sh --NotebookApp.token=''
+      "
