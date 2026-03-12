@@ -13,7 +13,7 @@ Este proyecto realiza un análisis exhaustivo de la **inseguridad alimentaria** 
 
 A través de técnicas de análisis estadístico y visualización de datos, el proyecto busca proporcionar evidencia sólida para la formulación de políticas públicas focalizadas. Los resultados revelan que **más de la mitad de los hogares (57.7%)** experimentan inseguridad alimentaria, con marcadas diferencias entre departamentos que van desde **31.2% en Bogotá hasta 79.2% en Sucre**.
 
-El análisis incluye estadísticas descriptivas, correlaciones con variables socioeconómicas, visualizaciones departamentales y una matriz de priorización territorial que combina porcentajes de afectación con números absolutos de hogares, permitiendo identificar regiones críticas que requieren intervención urgente.
+El análisis incluye estadísticas descriptivas, visualizaciones departamentales y una matriz de priorización territorial que combina porcentajes de afectación con números absolutos de hogares, permitiendo identificar regiones críticas que requieren intervención urgente.
 
 ---
 
