@@ -50,18 +50,33 @@ docker-compose up --build
 # O en otra terminal: docker-compose down
 ```
 ```bash
-📁 Estructura de Carpetas
+\subsection{Estructura del proyecto}
 
-taller_seguridad_alimentaria/
-├── notebooks/               # Notebooks y scripts de análisis
-├── datos_dane/              # Datos fuente (descargar por separado)
-├── resultados/              # CSV y gráficos generados
-├── Dockerfile                # Configuración del contenedor
-├── docker-compose.yml        # Orquestación de servicios
-├── requirements.txt          # Dependencias de Python
-├── .gitignore                # Archivos ignorados
-└── README.md                 # Este archivo
-├── Informe/
+A continuación se presenta la estructura de carpetas del proyecto:
+
+\begin{verbatim}
+taller-seguridad-alimentaria/
+│
+├── 📄 README.md                    # Descripción del proyecto
+├── 🐳 Dockerfile                    # Configuración del contenedor
+├── 🐳 docker-compose.yml            # Orquestación de servicios
+├── 📦 requirements.txt              # Dependencias de Python
+├── 🔒 .gitignore                    # Archivos ignorados por Git
+│
+├── 📁 datos/                        # Carpeta para datos fuente (NO SUBIR)
+│   └── .gitkeep                     # Mantiene la carpeta en el repo
+│
+├── 📁 notebooks/                    # Notebooks y scripts de análisis
+│   └── analisis_completo.ipynb      # Notebook principal con el análisis
+│
+├── 📁 resultados/                    # Resultados generados
+│   ├── datos_combinados_wfp_dane.csv
+│   ├── grafico_inseguridad_departamentos.png
+│   └── grafico_correlaciones.png
+│
+└── 📁 informe/                       # Informe final
+    └── informe_seguridad_alimentaria.pdf
+\end{verbatim}
 ```
 🔗 Fuentes de Datos
 WFP Colombia 2024: https://es.wfp.org/publicaciones/evaluacion-de-la-seguridad-alimentaria-para-la-poblacion-colombiana-2024
