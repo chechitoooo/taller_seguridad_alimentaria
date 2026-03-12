@@ -54,7 +54,7 @@ docker-compose up --build
 
 A continuación se presenta la estructura de carpetas del proyecto:
 
-\begin{verbatim}
+
 taller-seguridad-alimentaria/
 │
 ├── 📄 README.md                    # Descripción del proyecto
@@ -63,20 +63,20 @@ taller-seguridad-alimentaria/
 ├── 📦 requirements.txt              # Dependencias de Python
 ├── 🔒 .gitignore                    # Archivos ignorados por Git
 │
-├── 📁 datos/                        # Carpeta para datos fuente (NO SUBIR)
+├── 📁 datos_dane/                        # Carpeta para datos fuente (NO SUBIR)
 │   └── .gitkeep                     # Mantiene la carpeta en el repo
 │
 ├── 📁 notebooks/                    # Notebooks y scripts de análisis
-│   └── analisis_completo.ipynb      # Notebook principal con el análisis
+│   └──RESULTADOSVIVIENDAS.ipynb      # Notebook principal con el análisis
 │
 ├── 📁 resultados/                    # Resultados generados
-│   ├── datos_combinados_wfp_dane.csv
-│   ├── grafico_inseguridad_departamentos.png
-│   └── grafico_correlaciones.png
+│   ├── WFP_Colombia_2024_completo.csv
+│   ├── grafico_inseguridad_departamentos%.png
+│   
 │
 └── 📁 informe/                       # Informe final
     └── informe_seguridad_alimentaria.pdf
-\end{verbatim}
+
 ```
 🔗 Fuentes de Datos
 WFP Colombia 2024: https://es.wfp.org/publicaciones/evaluacion-de-la-seguridad-alimentaria-para-la-poblacion-colombiana-2024
@@ -91,14 +91,14 @@ Descargue al menos: Datos_vivienda, Caracteristicas_composicion_hogar, Condicion
 
 📊 Principales Hallazgos
 
-1. 57.7% de los hogares colombianos presentan inseguridad alimentaria
+📊 57.7% de los hogares colombianos presentan inseguridad alimentaria
 
-2. Sucre (79.2%), Córdoba (76.8%) y La Guajira (76.4%) lideran en porcentaje de afectación
+📍 Sucre (79.2%), Córdoba (76.8%) y La Guajira (76.4%) lideran en porcentaje de afectación
 
-3. Bogotá D.C. (31.2%) tiene la menor incidencia (brecha de 48 puntos)
+📉 Bogotá D.C. (31.2%) tiene la menor incidencia (brecha de 48 puntos)
 
-4. La Guajira y Nariño son críticos: alto porcentaje y alto volumen de casos
+⚠️ La Guajira y Nariño son críticos: alto porcentaje y alto volumen de casos
 
-5. Antioquia lidera en número absoluto (2,271 hogares) con porcentaje moderado
+🏙️ Antioquia lidera en número absoluto (2,271 hogares) con porcentaje moderado
 
 
