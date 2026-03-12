@@ -49,6 +49,7 @@ docker-compose up --build
 # Presiona Ctrl+C en la terminal donde está corriendo
 # O en otra terminal: docker-compose down
 ```
+```bash
 📁 Estructura de Carpetas
 
 taller_seguridad_alimentaria/
@@ -60,7 +61,7 @@ taller_seguridad_alimentaria/
 ├── requirements.txt          # Dependencias de Python
 ├── .gitignore                # Archivos ignorados
 └── README.md                 # Este archivo
-
+```
 🔗 Fuentes de Datos
 WFP Colombia 2024: https://es.wfp.org/publicaciones/evaluacion-de-la-seguridad-alimentaria-para-la-poblacion-colombiana-2024
 
