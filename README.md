@@ -61,6 +61,7 @@ taller_seguridad_alimentaria/
 ├── requirements.txt          # Dependencias de Python
 ├── .gitignore                # Archivos ignorados
 └── README.md                 # Este archivo
+├── Informe/
 ```
 🔗 Fuentes de Datos
 WFP Colombia 2024: https://es.wfp.org/publicaciones/evaluacion-de-la-seguridad-alimentaria-para-la-poblacion-colombiana-2024
